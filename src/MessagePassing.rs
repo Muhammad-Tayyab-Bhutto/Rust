@@ -30,7 +30,7 @@ fn main() {
         tx3.send(val).unwrap();
     });
 
-    // Receiving and printing messages
+    // Receiving and printing messages  
     for received in rx {
         println!("Got: {}", received);
     }
